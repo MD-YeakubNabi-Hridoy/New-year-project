@@ -41,3 +41,130 @@ header{
     padding: 10px 15px;
     transition: ease 1s;
 }
+/* main section styule */
+.main{
+    max-width: 1140px;
+    margin: 70px auto;
+}
+/* failure section start */
+.failure{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.failure-img>img{
+    width: 500px;
+}
+.failure-title{
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    padding-right: 150px;
+}
+.failure-des{
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 20px 50px 20px 0px;
+}
+ul{
+   list-style: none;
+}
+ul li{
+    margin-bottom: 10px;
+}
+/* plan section style */
+.plans{
+    margin: 120px auto;
+}
+.plans-title{
+    color:#151414;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+.plans-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    text-align: center;
+}
+/* call now section style */
+.call-now{
+    height: 300px;
+    background-image: url('../images/watch.png'),linear-gradient(to right, rgba(0, 21, 255, 0.719), rgba(0, 0, 0, 0.5)) ;
+    background-blend-mode: overlay;
+}
+.call-title{
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+}
+.callnow-content{
+    padding: 40px;
+}
+#call-btn{
+    border-radius: 5px;
+    background: #FFF;
+    color: #005FAC;
+    padding: 10px 15px;
+    border: none;
+    margin-top: 10px;
+    font-weight: 600;
+}
+#call-btn:hover{
+    border-radius: 5px;
+    background:#005FAC;
+    color: #FFF ;
+    padding: 10px 15px;
+    border: none;
+    margin-top: 10px;
+    font-weight: 600;
+    transition: ease 1s;
+}
+/* footer section style */
+.footer{
+    margin-top: 100px;
+    height: 500px;
+    background-color: #151414;
+}
+.footer-item{
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 150px;
+}
+.footer-title{
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.footer-des{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+.social-icon{
+    padding-right: 15px;
+    cursor: pointer;
+}
+form input{
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+}
+.contact-btn{
+    border-radius: 5px;
+    background-color: #005FAC;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+}
